@@ -1,0 +1,52 @@
+body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header {
+    Background-color: #333;
+    Color: white;
+    Padding: 1rem;
+    Text-align: center;
+}
+
+Nav ul {
+    List-style: none;
+}
+
+Nav ul li {
+    Display: inline;
+    Margin-right: 20px;
+}
+
+Nav ul li a {
+    Color: white;
+    Text-decoration: none;
+}
+
+.hero {
+    Text-align: center;
+    Padding: 2rem;
+    Background-color: #f5f5f5;
+}
+
+.dresses {
+    Display: flex;
+    Justify-content: space-around;
+    Padding: 2rem;
+}
+
+.dress {
+    Text-align: center;
+}
+
+Footer {
+    Background-color: #333;
+    Color: white;
+    Text-align: center;
+    Padding: 1rem;
+    Position: Bottom;
+    Bottom: 0;
+    Width: 100%;
+}
